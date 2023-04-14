@@ -151,3 +151,7 @@ std::vector<const Item*> ItemManager::GetItems(int minimum_id, int maximum_id) {
 
 	return matched_items;
 }
+
+std::vector<const Item*> ItemManager::GetItems(int minimum_id) {
+	return GetItems(minimum_id, items.size());
+}
