@@ -141,3 +141,13 @@ std::vector<const Item*> ItemManager::GetItems(const std::string& keyword) {
 
 	return matched_items;
 }
+
+std::vector<const Item*> ItemManager::GetItems(int minimum_id) {
+	std::vector<const Item*> matched_items{};
+
+	for (int it = minimum_id; it < items.size(); it++) {
+		matched_items.push_back(&items[it]);
+	}
+
+	return matched_items;
+}
