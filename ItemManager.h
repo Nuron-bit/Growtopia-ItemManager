@@ -52,7 +52,7 @@ struct ItemManager {
 
 	Item* GetItem(int id);
 	std::vector<const Item*> GetItems(const std::string& keyword);
-	std::vector<const Item*> GetItems(int minimum_id);
+	std::vector<const Item*> GetItems(int minimum_id, int maximum_id = items.size());
 
 private:
 	std::vector<Item> items;
