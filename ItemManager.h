@@ -14,11 +14,11 @@ struct Item {
 	uint16_t rarity;
 	uint32_t unk_1;
 	uint16_t unk_2;
-	uint32_t seed_base_color;
-	uint32_t seed_overlay_color;
+	int32_t seed_base_color;
+	int32_t seed_overlay_color;
 	uint32_t growth;
 	float drop_chance;
-	uint32_t texture_hash;
+	int32_t texture_hash;
 	uint8_t texture_x;
 	uint8_t texture_y;
 
