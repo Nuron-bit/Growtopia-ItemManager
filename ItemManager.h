@@ -10,6 +10,7 @@ struct Item {
 	uint8_t hit_sound_type;
 	uint8_t item_kind;
 	uint8_t collision_type;
+	uint8_t break_hits;
 	uint8_t clothing_type;
 	uint16_t rarity;
 	uint32_t unk_1;
