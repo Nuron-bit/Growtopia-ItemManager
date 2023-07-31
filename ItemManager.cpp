@@ -35,7 +35,7 @@ void ItemManager::ReadItem(Item* item, char*& data) {
 	Read(item->texture_y, data);
 	data += 2;
 	Read(item->collision_type, data);
-	data += 1;
+	Read(item->break_hits, data);
 	Read(item->drop_chance, data);
 	Read(item->clothing_type, data);
 	Read(item->rarity, data);
