@@ -34,6 +34,7 @@ struct Item {
 	std::string secondary_texture_path;
 	std::string player_sit_path;
 	std::string punch_stuff;
+	std::string unknown_texture_path; // Probably for Infinity Aura.
 };
 
 struct ItemManager {
