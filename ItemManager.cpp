@@ -59,6 +59,7 @@ void ItemManager::ReadItem(Item* item, char*& data) {
 	Read(item->punch_stuff, data);
 	data += 46;
 	Read(item->player_sit_path, data);
+	Read(item->unknown_texture_path, data);
 	DecodeName(item);
 }
 
