@@ -69,7 +69,7 @@ void ItemManager::LoadItems(char* data, size_t data_size) {
 	}
 
 	Read(version, data);
-	if (version != 15) {
+	if (version != 16) {
 		std::cout << "Version isn't supported.\n";
 		return;
 	}
